@@ -13,7 +13,11 @@
   text-transform: uppercase;
 }
 .navbar .nav.navbar-right li.active a {color: gold;}
-.jumbotron {background-color: #fff;}
+.jumbotron {
+  background-color: #fff;
+  background: url('../img/profile.jpg') no-repeat;
+  background-size: cover;
+}
 .jumbotron .profile {
   display: flex;
   align-items: center;

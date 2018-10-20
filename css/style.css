@@ -75,7 +75,7 @@
   font-weight: 700;
   flex: 0 0 70%;
 }
-.fa {
+.double-column .fa {
   border-radius: 50%;
   background: #2c1106;
   padding: 15px;

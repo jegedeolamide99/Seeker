@@ -15,7 +15,7 @@
   color: #000;
   text-transform: uppercase;
 }
-.navbar .nav.navbar-right li.active a {color: gold;}
+.navbar .nav.navbar-right li.active a {color: #c37f1e;}
 .jumbotron {
   background-color: #fff;
   background: url('../img/profile.jpg') no-repeat;
@@ -33,7 +33,7 @@
   z-index: 10;
 }
 .profile-name {
-  background-color: #f0ad4e;
+  background-color: #c37f1e;
   padding: 10px 30px;
   border-radius: 25px;
   margin-left: -20px;
@@ -47,7 +47,7 @@
 }
 .jumbotron .btn {
   border-radius: 25px;
-  color: brown;
+  color: #2c1106;
   text-transform: uppercase;
 }
 .index2 .jumbotron .container {
@@ -58,7 +58,7 @@
   margin-right: -20px;
 }
 .double-column .col-sm-6 {
-  border: 1px solid gray;
+  border: 1px solid #b2afa6;
   border-radius: 25px;
 }
 .double-column .actions {
@@ -68,16 +68,16 @@
 }
 .double-column .btn {
   padding: 10px 40px 10px 10px;
-  background-color: brown;
+  background-color: #2c1106;
   text-transform: uppercase;
-  border-color: brown;
+  border-color: #2c1106;
   border-radius: 15px;
   font-weight: 700;
   flex: 0 0 70%;
 }
 .fa {
   border-radius: 50%;
-  background: brown;
+  background: #2c1106;
   padding: 15px;
   border: 5px solid white;
   margin-left: -20px;
@@ -86,7 +86,7 @@
 }
 span.fa {font-family: inherit;}
 .information .row {
-  border: 1px solid gray;
+  border: 1px solid #b2afa6;
   border-radius: 15px;
 }
 .information h2,.information h3,.information h4 {

@@ -78,6 +78,14 @@
   font-size: 2.4rem;
 }
 span.fa {font-family: inherit;}
+.information .row {
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+.information h2,.information h3,.information h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
 /* media queries */
 @media screen and (min-width: 768px) {
   .double-column .col-sm-6 {

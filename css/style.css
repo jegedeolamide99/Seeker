@@ -18,7 +18,7 @@
 .navbar .nav.navbar-right li.active a {color: #c37f1e;}
 .jumbotron {
   background-color: #fff;
-  background: url('../img/profile.jpg') no-repeat;
+  background: url('../img/profile.jpeg') no-repeat;
   background-size: cover;
 }
 .jumbotron .profile {
@@ -61,6 +61,7 @@
 .double-column .col-sm-6 {
   border: 1px solid #b2afa6;
   border-radius: 25px;
+  background-color: #fff;
 }
 .double-column .actions {
   display: flex;
@@ -96,12 +97,20 @@ span.fa {font-family: inherit;}
 }
 /* media queries */
 @media screen and (min-width: 768px) {
+  .jumbotron {height: 350px;}
+  .double-column {margin-top: -180px;}
   .double-column .col-sm-6 {
     width: 45%;
     margin: 0 15px;
   }
 }
 @media screen and (max-width: 768px) {
+  .jumbotron {height: 300px;}
+  .double-column {margin-top: -120px;}
+  .index2 .double-column {margin-top: -90px;}
+  .index2 .jumbotron .container {justify-content: flex-start;}
+  .index2 .jumbotron .profile {flex: 0 0 100%;}
+  .index2 .jumbotron .profile:nth-child(2) {order: -1; margin-left: 15px;}
   .double-column .col-sm-6:nth-child(1) {
     margin-bottom: 15px;
   }

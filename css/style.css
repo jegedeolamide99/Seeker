@@ -18,8 +18,15 @@
 .navbar .nav.navbar-right li.active a {color: #c37f1e;}
 .jumbotron {
   background-color: #fff;
+  background: url('../img/profile1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.index2 .jumbotron {
+  background-color: #fff;
   background: url('../img/profile.jpeg') no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .jumbotron .profile {
   display: flex;

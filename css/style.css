@@ -25,11 +25,11 @@
   display: flex;
   align-items: center;
 }
+.jumbotron .profile:nth-child(1) {margin-right: auto;}
+.jumbotron .profile:nth-child(2) {margin-left: auto;}
 .profile-img {
   border: 5px solid white;
   border-radius: 100%;
-  height: 100px;
-  width: 100px;
   z-index: 10;
 }
 .profile-name {
@@ -98,7 +98,11 @@ span.fa {font-family: inherit;}
 /* media queries */
 @media screen and (min-width: 768px) {
   .jumbotron {height: 350px;}
-  .double-column {margin-top: -180px;}
+  .profile-img {
+    height: 120px;
+    width: 120px;
+  }
+  .double-column {margin-top: -150px;}
   .double-column .col-sm-6 {
     width: 45%;
     margin: 0 15px;
@@ -107,11 +111,15 @@ span.fa {font-family: inherit;}
 @media screen and (max-width: 768px) {
   .jumbotron {height: 300px;}
   .double-column {margin-top: -120px;}
-  .index2 .double-column {margin-top: -90px;}
-  .index2 .jumbotron .container {justify-content: flex-start;}
-  .index2 .jumbotron .profile {flex: 0 0 100%;}
-  .index2 .jumbotron .profile:nth-child(2) {order: -1; margin-left: 15px;}
+  .index2 .double-column {margin-top: -200px;}
+  .jumbotron .profile-name {padding: 10px 20px; margin-left: -15px;}
+  .index2 .jumbotron .profile-name:nth-child(1) {margin-right: -15px;}
+  .jumbotron .profile-name p {font-size: 1.5rem;}
   .double-column .col-sm-6:nth-child(1) {
     margin-bottom: 15px;
+  }
+  .profile-img {
+    height: 70px;
+    width: 70px;
   }
 }

@@ -106,8 +106,8 @@ span.fa {font-family: inherit;}
 @media screen and (min-width: 768px) {
   .jumbotron {height: 350px;}
   .profile-img {
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
   }
   .double-column {margin-top: -150px;}
   .double-column .col-sm-6 {
@@ -117,6 +117,7 @@ span.fa {font-family: inherit;}
 }
 @media screen and (max-width: 768px) {
   .jumbotron {height: 300px;}
+  .jumbotron .btn {float: right;}
   .double-column {margin-top: -120px;}
   .index2 .double-column {margin-top: -200px;}
   .jumbotron .profile-name {padding: 10px 20px; margin-left: -15px;}
@@ -126,7 +127,7 @@ span.fa {font-family: inherit;}
     margin-bottom: 15px;
   }
   .profile-img {
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
   }
 }

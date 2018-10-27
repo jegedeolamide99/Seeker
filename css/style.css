@@ -119,8 +119,10 @@ span.fa {font-family: inherit;}
   .jumbotron {height: 300px;}
   .jumbotron .btn {float: right;}
   .double-column {margin-top: -120px;}
-  .index2 .double-column {margin-top: -200px;}
+  .index2 .double-column {margin-top: -50px;}
   .jumbotron .profile-name {padding: 10px 20px; margin-left: -15px;}
+  .index2 .jumbotron .container {display: block;}
+  .index2 .jumbotron .profile:nth-child(2) {float: right;}
   .index2 .jumbotron .profile-name:nth-child(1) {margin-right: -15px;}
   .jumbotron .profile-name p {font-size: 1.5rem;}
   .double-column .col-sm-6:nth-child(1) {
